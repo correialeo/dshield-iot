@@ -127,7 +127,7 @@ Para alterar o endpoint, edite a variável `API_URL` no arquivo `sensor_simulato
 
 ## 📈 Formato dos Dados
 
-Os dados são enviados via POST em formato JSON:
+Os dados são enviados via POST (HTTP) em formato JSON:
 ```json
 {
     "deviceId": 6,
