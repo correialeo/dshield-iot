@@ -12,6 +12,20 @@ O **DisasterShield** é um sistema de monitoramento de desastres naturais que ut
 
 ---
 
+## Arquitetura de Camadas
+
+```mermaid
+graph TB
+    A[Presentation Layer<br/>Controllers & DTOs] --> B[Application Layer<br/>Services & Interfaces]
+    B --> C[Domain Layer<br/>Entities & Enums]
+    B --> D[Infrastructure Layer<br/>Data Access & Repositories]
+    D --> E[(MySQL Database)]
+    
+    F[ESP32 Sensors] --> G[Mesh Network] --> A
+    A --> H[JWT Authentication]
+    A --> I[Swagger Documentation]
+```
+
 ## 🚨 Sobre o Simulador
 
 O simulador reproduz o comportamento de dois sensores críticos para detecção de desastres:
