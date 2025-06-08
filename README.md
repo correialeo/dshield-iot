@@ -10,6 +10,10 @@ O **DisasterShield** é um sistema de monitoramento de desastres naturais que ut
 ### 📊 **DASHBOARD DO PROJETO**
 **https://github.com/correialeo/disaster-shield-dashboard**
 
+### Vídeos
+- [Demonstração IOT - Dashboard](https://youtu.be/WXqfdYOTrMg)
+- [PITCH](https://youtu.be/8D1A1Ji5vlc)
+
 ---
 
 ## Arquitetura de Camadas
