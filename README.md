@@ -2,6 +2,11 @@
 
 O **DisasterShield** é um sistema de monitoramento de desastres naturais que utiliza sensores IoT para detectar enchentes, incêndios e etc. Este repositório contém o simulador de sensores (`sensor_simulator.py`) que gera dados mockados de sensores de nível de água e fumaça, enviando essas informações para a API do sistema.
 
+## 👨‍🎓 Participantes
+- Julia Brito - RM 558831
+- Leandro Correia - RM 556203
+- Victor Antonopoulos - RM 556313
+
 ## 🔗 LINKS IMPORTANTES
 
 ### 🔥 **CIRCUITO ELETRÔNICO COMPLETO**
